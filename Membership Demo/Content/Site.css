@@ -1,0 +1,116 @@
+﻿body {
+    background-color:#5e5e5e;
+    margin:0;
+    font-family:'Segoe WP SemiLight';
+}
+
+.header_left_right {
+    display:block;
+    width:auto;
+    height:50px;
+    background-color:#5e5e5e;
+}
+
+.header_left {
+    float:left;
+    width:600px;
+    color:orangered;
+    display:block;
+}
+
+.logo {
+    float:left;
+    color:orangered;
+    font-size:32px;
+}
+
+.header_right {
+    float:right;
+}
+
+.navigation_menu {
+    margin-left:10px;
+    float:left;
+    display:block;
+    width:auto;
+    height:auto;
+}
+
+.navigation_buttons {
+    font-size:32px;
+    background-color:transparent;
+    color:white;
+    text-decoration:none 
+}
+.navigation_buttons:hover {
+    font-size:32px;
+    background-color:transparent;
+    color:orangered;
+    text-decoration:none 
+}
+
+.body {
+    background-color:white;
+    display:block;
+    min-height:700px;
+}
+
+.home_wrapper {
+    display:block;
+    width:auto;
+    padding-left:100px; 
+    padding-top:100px;
+}
+
+.home_wrapper_left {
+    width:600px;
+    float: left;
+}
+
+.home_wrapper_right {
+    float: right;
+}
+
+.contact_wrapper {
+    padding-left:100px;
+    padding-top:100px;
+}
+
+.footer {
+    background-color:#5e5e5e;
+    width:auto;
+    height:50px;
+}
+
+/* login
+----------------------------------------------------------*/
+#login {
+    display: block;
+    font-size: .85em;
+    margin: 0 0 0 0;
+    text-align: right;
+}
+
+    #login a {
+        background-color: #d3dce0;
+        margin-left: 10px;
+        margin-right: 3px;
+        padding: 2px 3px;
+        text-decoration: none;
+    }
+
+    #login a.username {
+        background: none;
+        margin-left: 0px;
+        text-decoration: underline;
+    }
+
+    #login ul {
+        margin: 0;
+    }
+
+    #login li {
+        display: inline;
+        list-style: none;
+    }
+
